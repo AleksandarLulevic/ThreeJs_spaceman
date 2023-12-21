@@ -1,0 +1,48 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: "brandon-grotesque",source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #cdcbca;
+}
+
+h1,h2,h3,h4,h5 {
+    text-transform: uppercase;
+    letter-spacing: 1.03px;
+    line-height: 1.2em;
+}
+
+h1 {
+    background: -webkit-linear-gradient(0deg,#cdcbca, aliceblue,#cdcbca, #372a3f);
+    background-size: auto;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 100% !important;
+}
+
+.numbers {
+    font-size: 100px;
+    padding: 50px;
+}
+
+.row {
+    width: 100%;
+    padding: 0 40px;
+}
